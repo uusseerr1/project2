@@ -1,0 +1,58 @@
+*{
+
+margin: 0; 
+padding: 0;
+box-sizing: 0;
+
+}
+/* Powyższe "resetuje" przeglądarkę. */ 
+
+.hero {
+    height: 100vh;
+    width: 100%; 
+    background-color: #e67e22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Width 100% usuwa scroll poziomy. */ 
+
+.navlist {
+display: flex;
+justify-content: center;
+margin-right: 20px;
+}
+
+.navlist_link {
+
+margin: 0 10px;
+
+}
+
+.navlist_item {
+
+    margin: 0 10px;
+    
+    }
+
+
+h1 {
+
+text-align: center;
+font-size: 35px;
+}
+
+a{
+    text-decoration-line: none;
+    font-size: 25px;
+}
+
+/* Text decoration line none usuwa podkreśliniki z linków. */ 
+
+li {
+
+list-style: none;
+
+}
